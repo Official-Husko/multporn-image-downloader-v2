@@ -2,9 +2,9 @@
 
 ### Reworked my Multporn Image Downloader  
 
-##Please Read!  
+## Please Read!  
 
-####How to use:  
+#### How to use:  
 
 1. Unpack the rar/zip into a folder  
 2. Start multporn-image-downloader-v2.exe  
