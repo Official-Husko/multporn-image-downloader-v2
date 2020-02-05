@@ -13,7 +13,7 @@
 
 #### New Features:  
 
-Chooe amount of images which should be downloaded  
+Choose amount of images which should be downloaded  
 Simply type a folder name  
 Faster download  
 
