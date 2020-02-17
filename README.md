@@ -7,7 +7,7 @@
 #### How to use:  
 
 1. Unpack the rar/zip into a folder  
-2. Start multporn-image-downloader-v2.exe  
+2. Start multporn-image-downloader-v2.exe (Data folder has to be in the same Folder!!)
 3. Enter for what it asks  
 
 
@@ -16,7 +16,9 @@
 Choose amount of images which should be downloaded  
 Simply type a folder name  
 Faster download  
-
+UI to use easier
+No more closing when done downloading
+New fancy buttons and functions
 
 #### Known Problems:  
 
