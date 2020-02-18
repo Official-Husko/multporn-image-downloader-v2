@@ -16,9 +16,10 @@
 Choose amount of images which should be downloaded  
 Simply type a folder name  
 Faster download  
-UI to use easier
-No more closing when done downloading
-New fancy buttons and functions
+UI to use easier  
+No more closing when done downloading  
+New fancy buttons and functions  
+
 
 #### Known Problems:  
 
