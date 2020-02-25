@@ -4,12 +4,13 @@
 
 ## Please Read!  
 
-#### How to use:  (Download under Releases!!)
+#### How to use:
 
 1. Unpack the rar/zip into a folder  
 2. Start multporn-image-downloader-v2.exe (Data folder has to be in the same Folder!!)
 3. Enter for what it asks  
 
+[Download][1]  
 
 #### New Features:  
 
@@ -23,7 +24,7 @@ New fancy buttons and functions
 
 #### Known Problems:  
 
-None  
+None :P  
 
 
 #### Supported Sites:  
@@ -34,4 +35,9 @@ Multporn.net
 #### Final Words:  
 
 And last but not least its my first bot so problems can occur. Please report them and enjoy the bot :) Feel free to join my discord server.  
-Discord: https://discord.gg/SEqKPDm
+Discord: [Join][2]  
+
+
+
+[1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
+[2]: https://discord.gg/SEqKPDm  
