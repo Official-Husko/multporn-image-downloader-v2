@@ -4,7 +4,7 @@
 
 ## Please Read!  
 
-#### How to use:  
+#### How to use:  (Download under Releases!!)
 
 1. Unpack the rar/zip into a folder  
 2. Start multporn-image-downloader-v2.exe (Data folder has to be in the same Folder!!)
