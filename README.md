@@ -9,6 +9,7 @@
 1. Unpack the rar/zip into a folder  
 2. Start multporn-image-downloader-v2.exe (Data folder has to be in the same Folder!!)
 3. Enter for what it asks  
+(PS: to get the best results make sure the link looks like this: https://multporn.net/comics/your_comic#expanded)
 
 [Download][1]  
 
