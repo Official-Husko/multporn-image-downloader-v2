@@ -25,7 +25,8 @@ New fancy buttons and functions
 
 #### Known Problems:  
 
-None :P  
+Downloader could freeze (will continue downloading)  
+No message which indicates its downloading (Fixed in next version)  
 
 
 #### Supported Sites:  
