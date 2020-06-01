@@ -31,8 +31,8 @@ New fancy buttons and functions
 
 [Confirmed] Downloader could freeze (will continue downloading)  
 [Confirmed] Pictures might break due to a weird Problem (Will be investigated)  
-[Not Confirmed] Application crashes on download [#1][5]  
-[Not Confirmed] Windows 8.1 Compatibility Issues?? [#2][6]  
+[Not Confirmed] Application crashes on download [(Issue: #1)][5]  
+[Not Confirmed] Windows 8.1 Compatibility Issues?? [(Issue #2)][6]  
 
 #### Supported Sites:  
 
