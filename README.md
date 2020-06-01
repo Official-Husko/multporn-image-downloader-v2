@@ -22,17 +22,13 @@ UI to use easier
 No more closing when done downloading  
 New fancy buttons and functions  
 
-#### Current Status:
+#### Additional Information:
 
-[Current Status][3]  
 [Changelog][4]  
 
 #### Reported Problems:  
 
-[Confirmed] Downloader could freeze (will continue downloading)  
-[Confirmed] Pictures might break due to a weird Problem (Will be investigated)  
-[Not Confirmed] Application crashes on download [(Issue: #1)][5]  
-[Not Confirmed] Windows 8.1 Compatibility Issues?? [(Issue #2)][6]  
+See [Current Status][3]   
 
 #### Supported Sites:  
 
