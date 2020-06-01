@@ -4,8 +4,8 @@
 :heavy_check_mark: [Bug] - Fix SSL Error  
 :heavy_check_mark: [Bug] - Stop Downloader from closing when finised Downloading  
 :x: [Bug] - Fix Freeze  
-:x: [Bug] - Application Crash on Download (Issue: #1)  
-:x: [Bug] - Investigate Windows 8.1 Download Button Bug (Issue: #2  
+:x: [Bug] - Application Crash on Download [(Issue: #1)][5]  
+:x: [Bug] - Investigate Windows 8.1 Download Button Bug [(Issue #2)][6]   
   
 #### -----[Functions]-----  
 :heavy_check_mark: [Function] - Remake Folder Option  
@@ -28,3 +28,6 @@
 #### -----[Base]-----  
 :x: [Base] - Re-code in C#  
 :x: [Base] - Push Updates to User System  
+
+[5]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/1  
+[6]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
