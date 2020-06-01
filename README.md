@@ -22,11 +22,17 @@ UI to use easier
 No more closing when done downloading  
 New fancy buttons and functions  
 
+#### Current Status:
 
-#### Known Problems:  
+[Current Status][3]  
+[Changelog][4]  
 
-Downloader could freeze (will continue downloading)  
-Pictures might break due to a weird Problem(Will be investigated)
+#### Reported Problems:  
+
+[Confirmed] Downloader could freeze (will continue downloading)  
+[Confirmed] Pictures might break due to a weird Problem (Will be investigated)  
+[Not Confirmed] Application crashes on download [#1][5]  
+[Not Confirmed] Windows 8.1 Compatibility Issues?? [#2][6]  
 
 #### Supported Sites:  
 
@@ -42,3 +48,7 @@ Discord: [Join][2]
 
 [1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
 [2]: https://discord.gg/SEqKPDm  
+[3]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Project%20Status.md   
+[4]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Changelog.md   
+[5]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/1  
+[6]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
