@@ -4,7 +4,7 @@
 :heavy_check_mark: [Bug] - Fix SSL Error  
 :heavy_check_mark: [Bug] - Stop Downloader from closing when finised Downloading  
 :heavy_check_mark: [Bug] - Fix Freeze - available in next update, oguh43<br>
-:heavy_check_mark: [Bug] - Application Crash on Download [(Issue: #1)][5]  
+:x: [Bug] - Application Crash on Download [(Issue: #1)][5]  
 :x: [Bug] - Investigate Windows 8.1 Download Button Bug [(Issue #2)][6]   
   
 #### -----[Functions]-----  
