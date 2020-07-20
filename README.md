@@ -46,6 +46,9 @@ And last but not least its my first bot so problems can occur. Please report the
 Discord: [Join][2]  
 Also big Thanks to oguh43 for his awesome help, he really made this project great!
   
+#### Disclaimer  
+We are not in any way affiliated or working with the team from [Multporn][7]. This is a unofficial project.  
+  
   
 [1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
 [2]: https://discord.gg/SEqKPDm  
