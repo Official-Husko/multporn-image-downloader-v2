@@ -53,4 +53,4 @@ Also big Thanks to oguh43 for his awesome help, he really made this project grea
 [4]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Changelog.md   
 [5]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/1  
 [6]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
-[7]: https://www.Multporn.net
+[7]: https://Multporn.net
