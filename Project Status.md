@@ -9,7 +9,7 @@
 #### -----[Functions]-----  
 :heavy_check_mark: [Function] - Remake Folder Option  
 :heavy_check_mark: [Function] - Implement Cerificate into .exe  
-:heavy_check_mark: [Function] - Add a progress bar(pain in the ass)- added by oguh43  
+:heavy_check_mark: [Function] - Add a progress bar(pain in the ass) - added by oguh43  
   
 #### -----[GUI/UI]-----  
 :heavy_check_mark: [GUI/UI] - Add GUI/UI  
@@ -25,7 +25,7 @@
 :x: [Security] - Add file information  
 
 #### -----[Base]-----  
-:x: [Base] - Re-code in C#  
+:x: [Base] - Re-code in C# (WIP)  
 :x: [Base] - Push Updates to User System  
 
 [1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
