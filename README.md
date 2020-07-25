@@ -2,7 +2,7 @@
 
 ### Reworked my Multporn Image Downloader  
 
-## Please Read!  
+## Please Read!  (Got a Issue? Read down below)
 
 #### What it is and what it does:
   
