@@ -29,7 +29,7 @@ New fancy buttons and functions
   
 #### Additional Information:
   
-[Changelog][4]  
+Post Issues Here: [Click][4]  
   
 #### Reported Problems:  
   
@@ -53,7 +53,7 @@ We are not in any way affiliated or working with the team from [Multporn][7]. Th
 [1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
 [2]: https://discord.gg/SEqKPDm  
 [3]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Project%20Status.md   
-[4]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Changelog.md   
+[4]: https://github.com/Stahlhelm-TV/bug-reports/issues  
 [5]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/1  
 [6]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
 [7]: https://Multporn.net
