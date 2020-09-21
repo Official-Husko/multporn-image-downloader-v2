@@ -17,6 +17,9 @@ You can choose a complete comic or Picture Gallery and download them with a few 
   
 [Download][1]  
   
+#### What's "Resume Download"?
+"Resume Download" checkbox should be used when the downloader crashes during downloading, or you want to download additional images after setting "Maximum Images" too low.
+
 #### New Features:  
   
 Choose amount of images which should be downloaded  
@@ -25,6 +28,8 @@ Faster download
 UI to use easier  
 No more closing when done downloading  
 New fancy buttons and functions  
+Multiple comics downloading at once
+Mobile version! For use with Termux/ iSH
   
 #### Additional Information:
   
