@@ -53,12 +53,6 @@ Also big Thanks to oguh43 for his awesome help, he really made this project grea
 #### Disclaimer  
 ***We are not in any way affiliated or working with the team from [Multporn][7]. This is a unofficial project.***  
   
-  
-## In loving memory of Official Husko
-*This Project was made and maintained by [Official Husko][8] and the ownership has been transfered to [oguh43][9] since he maintains it now. Both of us worked hard on this and we will still make a new tool in C# but this version is now only maintained by [oguh43][9].I thankful for the fun i had while making this tool and a big shoutout to [oguh43][9] for helping me and making this tool great with me.*  
-  
-  -- **[Official Husko][8]**
-  
 [1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
 [2]: https://discord.gg/SEqKPDm  
 [3]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Project%20Status.md   
