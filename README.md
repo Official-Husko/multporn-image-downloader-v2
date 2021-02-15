@@ -21,7 +21,7 @@ You can choose a complete comic or Picture Gallery and download them with a few 
 "Resume Download" checkbox should be used when the downloader crashes during downloading, or you want to download additional images after setting "Maximum Images" too low.
 
 #### NSFWDownloader
-If you like this project you also might wanna check out [h110m's NSFWDownloader](https://github.com/h110m/NSFWDownloader) that is inspired by this downloader and supports Galleryview, a couple other sides and even more features ;)
+If you like this project you also might wanna check out [h110m's NSFWDownloader](https://github.com/h110m/NSFWDownloader) that is inspired by this downloader and supports Galleryview, a couple other sites, a decent UI and even more features ;)
 
 #### New Features:  
   
