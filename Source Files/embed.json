@@ -1,0 +1,15 @@
+{
+  "embeds": [
+    {
+      "title": "Multporn-Image-Downloader-v2",
+      "description": "-----------------------------------------------------------------------------\n**Changelog:**\n\n> **21/9/2020**\n> \n> :tools: Made ui prettier\n> :tools: Changed version value and its format\n> :tools: Updated credits\n> :gear: Added custom directory file dialog\n> :gear: Added support for downloading multiple comics at once\n> :gear: Added link splitting by entered character\n> :gear: Added automatic link detection and splitting\n> :gear: Added the ability to disable alerts\n> \n> :toolbox: Downloader can now continue downloading images upon crashing\n\n> **3/7/2020**\n> \n> :tools: Fixed downloading freezing at 4%\n\n> **2/7/2020** \n> \n> :tools: Fixed freezing\n> :tools: Progressbar now resets\n> :tools: Textbox fields now reset\n> :tools: Image format is now automatically detected to prevent possible corruption\n> :tools: Corrected build version\n> :tools: Fixed \"Started Downloading:\" messagebox showing incorrect number\n> :tools: Fixed \"Total Images Downloaded:\" messagebox showing incorrect number\n> :gear: Replaced libraries with less heavy ones\n> :gear: Ported base to asyncio library to allow for better performance\n> :gear: Added .txt file error logging for better debugging\n> :gear: Added progressbar\n> :gear: Recoded a part of the base to allow for full use of asyncio library\n>  \n> :toolbox: Recoded in C#\n> \n> That's it for this week's contribution :slight_smile:\n\n> **20/06/2020**\n> \n> :tools: Fixed Crashes Related to Folder Names\n> :tools: Fixed Crashes Related to Duplicate Folders\n> :tools: Fixed Crashing when Max Images Field is Empty or Wrong Value\n\n> **09/04/2020**\n> \n> :gear: Added Start Message to inform the user that the download is starting\n\n> **17/01/2020**\n> \n> :tools: Fixed Certificate\n> :gear: Added UI(Almost complete)\n> :gear: Added New Buttons\n> :gear: Added New Functions\n> :gear: Added Data Folder\n\n\n-----------------------------------------------------------------------------\n:link: [Download](https://stahlhelm-tv.github.io/multporn-image-downloader-v2/)",
+      "url": "https://github.com/Stahlhelm-TV/multporn-image-downloader-v2",
+      "color": 7506394,
+      "author": {
+        "name": "Husko",
+        "icon_url": "https://i.imgur.com/dEf9jti.png"
+      }
+    }
+  ],
+  "username": "Multporn Image Downloader Updates"
+}

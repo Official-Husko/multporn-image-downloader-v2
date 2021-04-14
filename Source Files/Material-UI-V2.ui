@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_MainWindow</class>
+ <widget class="QMainWindow" name="w_MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Multporn-Image-Downloader-v2</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(98, 98, 98);</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="wg_Central">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <widget class="QPushButton" name="b_StartDownload">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>730</y>
+      <width>1041</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>Start Download</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Download</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_DownloadBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>729</y>
+      <width>1031</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 54, 54);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="li_MaxImages">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>660</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Maximum Images</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="li_FolderName">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>630</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Custom Folder Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="li_Url">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(54, 54, 54);
+gridline-color: rgb(54, 54, 54);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Links</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="pb_ProgressBar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>1001</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_DisableAlert">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>570</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disable Alerts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_Picture">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>1024</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../../../Husko/Downloads/header-image-1.png</normaloff>../../../../../../Husko/Downloads/header-image-1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>1024</width>
+      <height>800</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_create_folder">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>590</y>
+      <width>191</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Create new folder</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_resume_download">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>610</y>
+      <width>211</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Resume Download</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Data/img/header-image-1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="li_separator">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>600</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>1</number>
+    </property>
+    <property name="placeholderText">
+     <string>Separator (Default: &quot;:&quot;)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_auto_detect_links">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>630</y>
+      <width>231</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Automatically detect links</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_select_custom_dir">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>660</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>98</red>
+          <green>98</green>
+          <blue>98</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string>Select Custom Directory</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>l_DownloadBar</zorder>
+   <zorder>b_StartDownload</zorder>
+   <zorder>li_MaxImages</zorder>
+   <zorder>li_FolderName</zorder>
+   <zorder>li_Url</zorder>
+   <zorder>pb_ProgressBar</zorder>
+   <zorder>cb_DisableAlert</zorder>
+   <zorder>b_Picture</zorder>
+   <zorder>cb_create_folder</zorder>
+   <zorder>cb_resume_download</zorder>
+   <zorder>label</zorder>
+   <zorder>li_separator</zorder>
+   <zorder>cb_auto_detect_links</zorder>
+   <zorder>pb_select_custom_dir</zorder>
+  </widget>
+  <widget class="QMenuBar" name="m_MenuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(54, 54, 54);
+selection-background-color: rgb(98, 98, 98);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QMenu" name="m_Menu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="a_Settings"/>
+    <addaction name="separator"/>
+    <addaction name="a_Exit"/>
+   </widget>
+   <widget class="QMenu" name="m_Info">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="a_BuildInfo"/>
+    <addaction name="a_Discord"/>
+    <addaction name="a_Donate"/>
+    <addaction name="separator"/>
+    <addaction name="a_Credits"/>
+   </widget>
+   <widget class="QMenu" name="m_Help">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="a_GitHub"/>
+   </widget>
+   <addaction name="m_Menu"/>
+   <addaction name="m_Info"/>
+   <addaction name="m_Help"/>
+  </widget>
+  <action name="a_BuildInfo">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/action/ios/ic_info_outline_white_18pt.imageset/ic_info_outline_white_18pt_3x.png</normaloff>../Icons/action/ios/ic_info_outline_white_18pt.imageset/ic_info_outline_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Build Info</string>
+   </property>
+  </action>
+  <action name="a_Discord">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/av/ios/ic_mic_none_white.imageset/ic_mic_none_white_3x.png</normaloff>../Icons/av/ios/ic_mic_none_white.imageset/ic_mic_none_white_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Discord</string>
+   </property>
+  </action>
+  <action name="a_Credits">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/social/ios/ic_people_outline_white_18pt.imageset/ic_people_outline_white_18pt_3x.png</normaloff>../Icons/social/ios/ic_people_outline_white_18pt.imageset/ic_people_outline_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </action>
+  <action name="a_Settings">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/action/ios/ic_settings_white_18pt.imageset/ic_settings_white_18pt_3x.png</normaloff>../Icons/action/ios/ic_settings_white_18pt.imageset/ic_settings_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="a_Exit">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/action/ios/ic_exit_to_app_white_18pt.imageset/ic_exit_to_app_white_18pt_3x.png</normaloff>../Icons/action/ios/ic_exit_to_app_white_18pt.imageset/ic_exit_to_app_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="a_Donate">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/editor/ios/ic_attach_money_white_18pt.imageset/ic_attach_money_white_18pt_3x.png</normaloff>../Icons/editor/ios/ic_attach_money_white_18pt.imageset/ic_attach_money_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </action>
+  <action name="a_GitHub">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/action/ios/ic_help_outline_white_18pt.imageset/ic_help_outline_white_18pt_3x.png</normaloff>../Icons/action/ios/ic_help_outline_white_18pt.imageset/ic_help_outline_white_18pt_3x.png</iconset>
+   </property>
+   <property name="text">
+    <string>GitHub</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
