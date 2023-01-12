@@ -2,7 +2,15 @@
 
 ### Reworked my Multporn Image Downloader  
 
-## Please Read!  (Got a Issue? Read down below)
+## ‼️Please Read‼️  
+This tool has now been deprecated for quite a while now. I would suggest you to use the New [NN-Downloader][10] which is CLI focused and supports a bunch of new sites with new features such as a proxy option.  
+  
+<details>
+
+<summary>Read Original Description</summary>
+  
+  
+## Description
 
 #### What it is and what it does:
   
@@ -21,7 +29,7 @@ You can choose a complete comic or Picture Gallery and download them with a few 
 "Resume Download" checkbox should be used when the downloader crashes during downloading, or you want to download additional images after setting "Maximum Images" too low.
 
 #### NSFWDownloader
-If you like this project you also might wanna check out [h110m's NSFWDownloader](https://github.com/h110m/NSFWDownloader) that is inspired by this downloader and supports Galleryview, a couple other sites, a browser extension, a decent UI and even more features ;)
+If you like this project you also might wanna check out [h110m's NSFWDownloader](https://github.com/h110m/NSFWDownloader) that is inspired by this downloader and supports Galleryview, a couple other sites, a browser extension, a decent UI and even more features ;) ~ [h110m][11]
 
 #### New Features:  
   
@@ -49,19 +57,23 @@ Multporn.net
   
 #### Final Words:  
   
-And last but not least its my first bot so problems can occur. Please report them and enjoy the bot :) Feel free to join my discord server.  
+And last but not least its my second tool so problems can occur. Please report them and enjoy the tool :) Feel free to join my discord server.  
 Discord: [Join][2]  
 Also big Thanks to oguh43 for his awesome help, he really made this project great!
   
 #### Disclaimer  
 ***We are not in any way affiliated or working with the team from [Multporn][7]. This is a unofficial project.***  
   
-[1]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/releases  
+</details>
+  
+[1]: https://github.com/Official-Husko/multporn-image-downloader-v2/releases  
 [2]: https://discord.gg/SEqKPDm  
-[3]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/blob/master/Project%20Status.md   
-[4]: https://github.com/Stahlhelm-TV/bug-reports/issues  
-[5]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/1  
-[6]: https://github.com/Stahlhelm-TV/multporn-image-downloader-v2/issues/2  
+[3]: https://github.com/Official-Husko/multporn-image-downloader-v2/blob/master/Project%20Status.md   
+[4]: https://github.com/Official-Husko/multporn-image-downloader-v2/issues/new
+[5]: https://github.com/Official-Husko/multporn-image-downloader-v2/issues/1  
+[6]: https://github.com/Official-Husko/multporn-image-downloader-v2/issues/2  
 [7]: https://Multporn.net
 [8]: https://github.com/Official-Husko
 [9]: https://github.com/oguh43
+[10]: https://github.com/Official-Husko/NN-Downloader
+[11]: https://github.com/h110m
